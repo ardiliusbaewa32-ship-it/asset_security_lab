@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id" data-theme="light" data-font="normal" data-motion="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asset Security Lab: Virtual Network Asset Identification Laboratory</title>
+<meta name="description" content="Lab maya interaktif Pengenalan Aset Keamanan Jaringan untuk kelas XI SMK. Berjalan offline.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#view">Lewati ke konten</a>
+<div class="app">
+  <header class="top">
+    <button class="iconbtn only-mobile" id="btnMenu" aria-label="Buka atau tutup menu"></button>
+    <div class="brand">
+      <span class="logo-slot"></span>
+      <div style="min-width:0"><strong>ASSET SECURITY LAB</strong><small>Virtual Network Asset Identification Laboratory</small></div>
+    </div>
+    <div class="top-prog">
+      <span class="lbl">Progres</span>
+      <div class="bar" id="progWrap" role="progressbar" aria-label="Progres pembelajaran" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="progBar" style="width:0"></i></div>
+      <b id="progTxt">0/12</b>
+    </div>
+    <button class="iconbtn" id="btnAudio" aria-label="Efek suara"></button>
+    <button class="iconbtn" id="btnSettings" aria-label="Pengaturan audio, tampilan, dan reset progres" title="Pengaturan"></button>
+    <button class="askbtn" id="btnAsk" aria-expanded="false" aria-controls="chat"><span class="av" id="askAv"></span><span>Tanya RESA</span></button>
+  </header>
+  <nav class="side" id="side" aria-label="Menu utama"></nav>
+  <main id="view" tabindex="-1"></main>
+</div>
+<section class="chat" id="chat" aria-label="Tanya RESA, Virtual Learning Assistant"></section>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<div id="print-area"></div>
+<noscript><p style="padding:2rem">Aplikasi ini memerlukan JavaScript. Aktifkan JavaScript pada browser, lalu muat ulang halaman.</p></noscript>
+
+<script src="data/materi.js"></script>
+<script src="data/soal.js"></script>
+<script src="data/kb.js"></script>
+<script src="js/visual.js"></script>
+<script src="js/musik.js"></script>
+<script src="js/inti.js"></script>
+<script src="js/resa.js"></script>
+<script src="js/bagian.js"></script>
+</body>
+</html>
